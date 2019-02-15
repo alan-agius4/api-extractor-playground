@@ -1,0 +1,19 @@
+{
+  "name": "api-extractor-poc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc -p tsconfig-build.json && node bin/index",
+    "extractor": "api-extractor"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@microsoft/api-extractor": "7.0.17",
+    "typescript": "3.1.1"
+  },
+  "dependencies": {
+    "rxjs": "^6.3.3"
+  }
+}

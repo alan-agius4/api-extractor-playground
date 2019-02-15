@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2015",
+      "outDir": "./bin",
+      "lib": [
+          "es2017"
+      ]
+  },
+  "files": [
+      "./index.ts"
+  ]
+}
